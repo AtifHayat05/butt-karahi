@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3030"/>
+      <stop offset="100%" stop-color="#a90000"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd34d"/>
+      <stop offset="100%" stop-color="#d99a00"/>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow
+        dx="0"
+        dy="5"
+        stdDeviation="7"
+        flood-color="#000000"
+        flood-opacity="0.55"
+      />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle
+    cx="256"
+    cy="256"
+    r="246"
+    fill="#090909"
+    stroke="#9f0000"
+    stroke-width="12"
+  />
+
+  <!-- Main red ring -->
+  <circle
+    cx="256"
+    cy="256"
+    r="224"
+    fill="none"
+    stroke="#ef1717"
+    stroke-width="7"
+  />
+
+  <!-- Chef Hat -->
+  <g fill="#fff8ef" filter="url(#shadow)">
+    <path d="
+      M183 143
+      C164 143 150 128 150 109
+      C150 89 166 74 186 74
+      C195 51 217 37 243 40
+      C267 42 285 57 292 78
+      C299 70 310 66 323 66
+      C346 66 364 84 364 107
+      C364 128 348 143 327 143
+      L315 143
+      L310 171
+      L198 171
+      L193 143
+      Z
+    "/>
+
+    <path
+      d="M190 143 Q256 177 322 143 L316 173 Q256 194 196 173 Z"
+      fill="#e9e1d8"
+    />
+  </g>
+
+  <!-- BK initials -->
+  <g filter="url(#shadow)">
+    <!-- B -->
+    <path
+      d="
+        M125 215
+        L166 202
+        C205 190 235 204 235 230
+        C235 247 224 258 209 264
+        C228 267 240 278 240 297
+        C240 327 209 346 165 352
+        L112 358
+        L125 215
+        Z
+
+        M156 231
+        L153 257
+        L177 251
+        C193 247 201 240 200 231
+        C199 222 187 223 175 226
+        Z
+
+        M151 280
+        L148 325
+        L177 319
+        C195 315 207 306 207 296
+        C207 284 194 278 178 281
+        Z
+      "
+      fill="#fff8ef"
+    />
+
+    <!-- K -->
+    <path
+      d="
+        M236 202
+        L269 199
+        L263 252
+        L311 194
+        L350 191
+        L307 246
+        L354 331
+        L314 335
+        L283 276
+        L260 303
+        L257 341
+        L224 345
+        Z
+      "
+      fill="url(#red)"
+    />
+  </g>
+
+  <!-- Flame -->
+  <path
+    d="
+      M366 215
+      C389 234 400 253 398 274
+      C396 300 376 322 349 329
+      C365 310 366 293 356 278
+      C346 263 345 244 366 215
+      Z
+    "
+    fill="url(#red)"
+  />
+
+  <path
+    d="
+      M365 239
+      C378 253 382 266 378 279
+      C374 292 364 302 351 307
+      C359 294 357 283 351 274
+      C345 263 349 251 365 239
+      Z
+    "
+    fill="url(#gold)"
+  />
+
+  <!-- Karahi / pan -->
+  <path
+    d="
+      M108 358
+      Q256 405 404 358
+      L390 383
+      Q256 425 122 383
+      Z
+    "
+    fill="url(#red)"
+  />
+
+  <path
+    d="
+      M94 351
+      Q112 341 130 353
+      L154 374
+      L135 384
+      L107 367
+      Q95 361 94 351
+      Z
+    "
+    fill="#ef1717"
+  />
+
+  <path
+    d="
+      M418 351
+      Q400 341 382 353
+      L358 374
+      L377 384
+      L405 367
+      Q417 361 418 351
+      Z
+    "
+    fill="#ef1717"
+  />
+
+  <!-- Restaurant name -->
+  <text
+    x="256"
+    y="419"
+    text-anchor="middle"
+    fill="#fff8ef"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="31"
+    font-weight="900"
+    letter-spacing="1"
+  >
+    BUTT KARAHI
+  </text>
+
+  <!-- Subtitle -->
+  <line
+    x1="125"
+    y1="444"
+    x2="180"
+    y2="444"
+    stroke="#f5b900"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <text
+    x="256"
+    y="451"
+    text-anchor="middle"
+    fill="#f5b900"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="700"
+    letter-spacing="3"
+  >
+    BY USMAN TAHIR
+  </text>
+
+  <line
+    x1="332"
+    y1="444"
+    x2="387"
+    y2="444"
+    stroke="#f5b900"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+</svg>
